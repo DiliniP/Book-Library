@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".Activities.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/colorWhite"
+        android:background="@color/colorTitleBarBackground"
+        app:menu="@menu/search_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <LinearLayout
+        android:id="@+id/main_page_linear_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toolbar"
+        android:background="@color/colorField"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/pick_location"
+        android:padding="10dp"
+        android:layout_margin="0dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:drawableTint="@color/colorBlack"
+        android:drawableEnd="@drawable/ic_baseline_location_on_24"
+        android:text="@string/choose_locat"
+        android:textAppearance="@style/choose_locat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_below="@id/main_page_linear_layout"
+        android:layout_above="@id/make_request_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/make_request_button"
+        android:text="@string/make_req"
+        android:textAppearance="@style/make_req"
+        android:textAlignment="center"
+        android:background="@color/colorTitleBarBackground"
+        android:padding="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_background"
+    tools:context=".Activities.LoginActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:ignore="MissingConstraints">
+
+        <!--Login Page Image-->
+        <ImageView
+            android:id="@+id/imageViewLogin"
+            android:layout_width="328dp"
+            android:layout_height="205dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="76dp"
+            app:srcCompat="@drawable/logo" />
+        <!--/Login Page Image-->
+
+        <!--NIC-->
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register_ui_style"
+            android:ems="10"
+            android:layout_marginTop="50dp"
+            android:inputType="text"
+            android:hint="@string/contact_number"
+            android:textAppearance="@style/nic"
+            android:textAlignment="center"
+            />
+        <!--/NIC-->
+
+        <!--Password-->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/register_ui_style"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:textAppearance="@style/password"
+            android:textAlignment="center"/>
+        <!--/Password-->
+
+        <!--Login Button-->
+        <Button
+            android:id="@+id/loginbut"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/logintex"
+            android:textAppearance="@style/logintex"
+            android:background="@drawable/login_button" />
+        <!--/Login Button-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!-- Not a member yet ? -->
+            <TextView
+                android:id="@+id/not_a_membe"
+                android:layout_width="170dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="66dp"
+                android:text="@string/not_a_membe"
+                android:textAppearance="@style/not_a_membe"
+                android:gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/register_text"
+                android:layout_width="81dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="65dp"
+                android:gravity="center_vertical"
+                android:text="@string/register_dir"
+                android:textAppearance="@style/register_dir" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

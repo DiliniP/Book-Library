@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Book Library</string>
+
+    <string name="full_name">Enter Your Full Name</string>
+    <string name="city">City</string>
+    <string name="contact_number">Contact Number (Verification)</string>
+    <string name="book_category">Book Catergory</string>
+    <string name="password">Password</string>
+    <string name="registertex">Become a member</string>
+    <string name="already_a_m">Already a member ?</string>
+    <string name="login_dir">Login</string>
+
+    <!--Login Page Strings-->
+    <string name="logintex">Login</string>
+    <string name="not_a_membe">Not a member yet ?</string>
+    <string name="register_dir">Register</string>
+    <!--/Login Page Strings-->
+
+    <!--Main Page Strings-->
+    <string name="choose_locat">Choose Your City</string>
+    <string name="make_req">Make Request</string>
+    <!--/Main Page Strings-->
+
+    <!--Make Request Page Strings-->
+    <string name="heart_felt_txt">Can you help to my success</string>
+    <string name="make_req_msg">Type Your Message here..</string>
+    <string name="choose_img">Choose an Image</string>
+    <string name="post_req">Post Request</string>
+    <!--/Make Request Page Strings-->
+
+    <!--Search Page Strings-->
+    <string name="stay_with_us">Find Books and Improve Your Knowledge</string>
+    <string name="choose_city">Choose a City</string>
+    <string name="choose_city_hint">Eg: Gampaha</string>
+    <string name="book_group_se">Book Category</string>
+    <string name="book_group_hint">Eg: Maths Related Books</string>
+    <string name="find_don">Find Books</string>
+    <!--/Search Page Strings-->
+
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_background"
+    tools:context=".Activities.RegisterActivity">
+
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       tools:ignore="MissingConstraints">
+
+        <!--Register Page Image-->
+       <ImageView
+           android:id="@+id/imageViewRegister"
+           android:layout_width="258dp"
+           android:layout_height="204dp"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginLeft="80dp"
+           android:layout_marginTop="53dp"
+           app:srcCompat="@drawable/logo" />
+       <!--/Register Page Image-->
+
+       <!--Full Name-->
+       <EditText
+           android:id="@+id/name"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/register_ui_style"
+           android:ems="10"
+           android:inputType="textPersonName"
+           android:hint="@string/full_name"
+           android:textAppearance="@style/full_name"
+           android:textAlignment="center"
+           />
+       <!--/Full Name-->
+
+       <!--City-->
+       <EditText
+           android:id="@+id/city"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/register_ui_style"
+           android:inputType="text"
+           android:hint="@string/city"
+           android:textAppearance="@style/city"
+           android:textAlignment="center"/>
+       <!--/City-->
+
+       <!--Mobile Number-->
+       <EditText
+           android:id="@+id/contact_no"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/register_ui_style"
+           android:inputType="number"
+           android:hint="@string/contact_number"
+           android:textAppearance="@style/contact_number"
+           android:textAlignment="center"/>
+       <!--/Mobile Number-->
+
+       <!--Blood Group-->
+       <EditText
+           android:id="@+id/book_category"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/register_ui_style"
+           android:inputType="text"
+           android:hint="@string/book_category"
+           android:textAppearance="@style/book_category"
+           android:textAlignment="center"/>
+       <!--/Blood Group-->
+
+       <!--Password-->
+       <EditText
+           android:id="@+id/password"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/register_ui_style"
+           android:inputType="textPassword"
+           android:hint="@string/password"
+           android:textAppearance="@style/password"
+           android:textAlignment="center"/>
+       <!--/Password-->
+
+       <!--Register Button-->
+       <Button
+           android:id="@+id/registerbut"
+           android:layout_width="243dp"
+           android:layout_height="50dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/register_button"
+           android:text="@string/registertex"
+           android:textAppearance="@style/registertex" />
+       <!--/Register Button-->
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal">
+
+           <TextView
+               android:id="@+id/already_a_m"
+               android:layout_width="170dp"
+               android:layout_height="28dp"
+               android:layout_alignParentLeft="true"
+               android:layout_marginLeft="25dp"
+               android:layout_alignParentTop="true"
+               android:layout_marginTop="10dp"
+               android:text="@string/already_a_m"
+               android:textAppearance="@style/already_a_m"
+               android:gravity="center_vertical" />
+
+
+           <TextView
+               android:id="@+id/login"
+               android:layout_width="81dp"
+               android:layout_height="28dp"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginTop="10dp"
+               android:gravity="center_vertical"
+               android:text="@string/login_dir"
+               android:textAppearance="@style/login_dir" />
+
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+
+
+
+
+</ScrollView>

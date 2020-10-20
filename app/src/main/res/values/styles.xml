@@ -1,0 +1,147 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Register Screen Styles-->
+    <style name="full_name">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="nic">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="city">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="contact_number">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="book_category">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="password">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="registertex">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="already_a_member">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="login_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#2637D7</item>
+    </style>
+
+    <style name="login_dir">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#2637D7</item>
+    </style>
+
+    <!--/Register Screen Styles-->
+
+    <!--Login Screen Styles-->
+    <style name="logintex">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="already_a_m">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="not_a_membe">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="register_dir">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#2637D7</item>
+    </style>
+
+    <!--/Login Screen Styles-->
+
+    <!--Main Screen Styles-->
+    <style name="choose_locat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="make_req">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--/Main Screen Styles-->
+
+    <!--Request Item Layout Styles-->
+    <style name="card_img_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!--/Request Item Layout Styles-->
+
+    <!--Make RequestLayout Styles-->
+    <style name="heart_felt_txt">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="make_req_msg">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="choose_img">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFA724</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--/Request Item Layout Styles-->
+
+    <!--Search Page Layout Styles-->
+    <style name="stay_with_us">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="choose_city">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!--/Search Page Layout Styles-->
+
+    <!--Search Results Page Layout Styles-->
+    <style name="sp_text">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+
+</resources>
